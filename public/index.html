@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDKxSmpKSTjE820L0MjuXlBwXM5XYCzd8I",
+        authDomain: "fleet-resolver-308922.firebaseapp.com",
+        projectId: "fleet-resolver-308922",
+        storageBucket: "fleet-resolver-308922.appspot.com",
+        messagingSenderId: "318547790162",
+        appId: "1:318547790162:web:217853f42fb965c43d528b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app.js" defer></script>
+
+    <title>Ebmedded AR.js Experience through echoAR</title>
+        <style>
+            #background {
+                top: 0;
+                left: 0;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background-color: rgb(0, 45, 100);
+                z-index: -1;
+            }
+            h1 {
+                position: relative;
+                color: white;
+                text-align: center;
+                font-size: 5vh;
+		            font-family: Arial, Helvetica, sans-serif;
+            }
+            iframe {
+                position: relative;
+                width: 100%;
+                height: 75vh;
+            }
+        </style>
+</head>
+<body>
+        <p>loggedIn</p>
+        <div id="background"></div>
+        <h1>Ebmedded AR.js Experience through echoAR</h1>
+        <iframe src="https://console.echoAR.xyz/arjs?key=black-heart-3762"
+                allow="camera *">
+        </iframe>
+
+</body>
+</html>
