@@ -5,15 +5,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-<<<<<<< HEAD
-=======
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
->>>>>>> virtual trainer but it's just javascript and i'm going insane
     ]
   },
   "emulators": {
